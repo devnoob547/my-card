@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import myImage from './assets/astronauta.jpg';
+import { GithubLogo } from 'phosphor-react';
 
 export function App() {
   return (
@@ -25,6 +26,12 @@ export function App() {
               slash is my reference
             </li>
           </ul>
+          <div className="flex gap-2">
+            <a href="https://github.com/devnoob547" target="_blank" className="flex items-center bg-purple-600 w-full p-2 rounded-md hover:bg-purple-700 transition-colors">
+              <GithubLogo size={32} />
+              <p className="font-medium">Github</p>
+            </a>
+          </div>
         </div>
         <footer className="text-center mt-4 font-thin text-opacity-70">under development 🛠️</footer>
       </div>
