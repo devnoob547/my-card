@@ -27,7 +27,7 @@ export function App() {
             </li>
           </ul>
           <div className="flex gap-2">
-            <a href="https://github.com/devnoob547" target="_blank" className="flex items-center bg-purple-600 w-full p-2 rounded-md hover:bg-purple-700 transition-colors">
+            <a href="https://github.com/devnoob547" target="_blank" className="flex items-center bg-purple-700 w-full p-2 rounded-md hover:bg-purple-800 transition-colors">
               <GithubLogo size={32} />
               <p className="font-medium">Github</p>
             </a>
